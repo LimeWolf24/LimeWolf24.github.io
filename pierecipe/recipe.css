@@ -1,3 +1,9 @@
 body {
-    background-color: ;
+    background-color: #404040;
+}
+h1, h2, h3, h4, h5, h6 {
+   font-family: Lucida Sans Unicode, Helvetica, Arial;
+}
+h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote {
+   color: #F0F0F0;
 }
