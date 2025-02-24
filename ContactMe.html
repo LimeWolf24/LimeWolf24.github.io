@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <center><h1>Contact Me</h1></center>
+    <form action="#" method="post" id="contact form"
+    style="text-align: center;" onsubmit="alert('Not Implemented yet');">
+    <fieldset>
+        <label for="myname">Name:</label> <br/>
+        <input type="text" name="myname" id="myname"
+        required> <br/> <br/>
+
+        <label for="myemail">Email:</label> <br/>
+        <input type="email" name="myemail" required> <br/> <br/>
+
+        <label for="subject">Subject:</label> <br/>
+        <input type="text" name="subject" id="subject"
+            placeholder="CS 101" reqired> <br/> <br/> 
+
+        <textarea name="tdoby" id="tbody" placeholder="Enter Message..."
+                    required></textarea> <br/> <br/>
+        <label for="priority">Priority:</label> <br/> <br/>
+        <select name="priority" id="priority" required>
+            <option disabled select value>-- Select an option --</option>
+            <option value="low">Low</option>
+            <option value="med">Medium</option>
+            <option value="high">High</option>
+            <option value="crit">Critical</option>
+        </select> <br/> <br/>
+
+
+        <!-- Todo : file and radio -->
+
+        <input type="submit" value="Submit" id="sbutton">
+    </fieldset>    
+
+</form>
+</body>
+</html>
