@@ -1,13 +1,11 @@
        table, th, td {
-            border: 1px solid black;
+            border: 1px solid white;
             border-collapse: collapse;
             padding: 10px
         }
         table { padding: 1px;
             margin: 0 auto;}
-        th { background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,113,222,1) 50%, rgba(129,13,189,1) 100%);
-           }
+        th { background:#97ca21}
         .rheader { background: #6d9a05}
         body {
             background: #000000;
