@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
     <h1>Sign Up</h1>
     <h2>It's free and always will be.</h2>
-    <center><label for="myfirstname"></label> <br/>
+    <center><label for="myfirstname"></label>
         <input type="text" name="myfirstname" id="myfirstname" 
         size="15" maxlength="100" placeholder="First Name"
         required> </center>
@@ -27,16 +28,14 @@
         required> <br/> <br/></center>
 
         <center><label for="mypassword"></label> <br/>
-        <input type="email" name="myemail"
-        size="15" maxlength="100" placeholder="New Password"
-        required> <br/> <br/></center>
-        <label for="priority"><center>Birthday</center></label> <br/> <br/>
-        <center><select name="priority" id="priority" required>
-            <option disabled select value>-- Select an option --</option>
-            <option value="low"></option>
-            <option value="med"></option>
-            <option value="high"></option>
-            <option value="crit"></option>
-        </select> <br/> <br/></center>
+            <input type="password" size="15" maxlength="100" placeholder="New Password"
+            required>
+          <br/> <br/></center>
+
+        <label for="birthday"><center>Birthday</center></label>
+        <center><input type="date"></center>
+        <p>Why do I need to provide my birthday?</p>
+
+        <center><button>Sign Up</button></center>
 </body>
 </html>
