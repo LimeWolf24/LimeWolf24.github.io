@@ -1,0 +1,16 @@
+body {
+    background-color: #404040;
+
+}
+h1, h2, h3, h4, h5, h6 {
+   font-family: Lucida Sans Unicode, Helvetica, Arial;
+}
+body {
+   background-color: #F0F0F0;
+}
+h1, h2, h3, h4, h5, h6 {
+   color:  #A4A400;
+}
+body {
+   color: #404040;
+}

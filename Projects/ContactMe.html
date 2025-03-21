@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        * {
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        button {
+            color: white;
+            background-color: blueviolet;
+            font-size: 25px;
+            padding: 15px;
+            border: 2px solid white;
+            border-radius: 10px;    /* round corners */
+        }
+
+        body {background: #555;}
+
+        label {font-weight: bold;}
+
+        h1 { font-size 18px; color: white; }
+
+        textarea { min-width:250px; min-height: 50px;}
+
+        form { min-width: 250px; min-height: 50px}
+
+        input, textarea { max-width: 250px;}
+
+        .rqd { color: red; font-weight: normal;}
+
+        .flwlbl { font-weight: normal; }
+
+        #attach {
+            background: white !important;
+            border: 1px solid gray;
+            border-radius: 3px;
+            padding-right: 3px
+        }
+
+        fieldset {
+            border-radius: 5px;
+            background-color: #ccc;
+            border: none;
+            width: 50%;
+            margin: 0 auto;
+            padding: 30px 15px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Contact Me</h1></center>
+    <form action="#" method="post" id="contact form"
+    style="text-align: center;" onsubmit="alert('Not Implemented yet');">
+    <fieldset>
+        <label for="myname">Name:</label> <br/>
+        <input type="text" name="myname" id="myname"
+        required> <br/> <br/>
+
+        <label for="myemail">Email:</label> <br/>
+        <input type="email" name="myemail" required> <br/> <br/>
+
+        <label for="subject">Subject:</label> <br/>
+        <input type="text" name="subject" id="subject"
+            placeholder="CS 101" reqired> <br/> <br/> 
+
+        <textarea name="tdoby" id="tbody" placeholder="Enter Message..."
+                    required></textarea> <br/> <br/>
+        <label for="priority">Priority:</label> <br/> <br/>
+        <select name="priority" id="priority" required>
+            <option disabled select value>-- Select an option --</option>
+            <option value="low">Low</option>
+            <option value="med">Medium</option>
+            <option value="high">High</option>
+            <option value="crit">Critical</option>
+        </select> <br/> <br/>
+
+
+        <!-- Todo : file and radio -->
+
+        <label for="attach">Attachment</label> <br/>
+        <input type="file" name="attach" id="attach" multiple> <br/> <br/>
+
+        <label for="flwup">Do you want a follow up email?</label>
+        <input type="radio" name="flwup" id="flwupy" value="yes">
+        <label for="flwupy" class="flwlbl">yes</label>
+        <input type="radio" name="flwup" id="flwupn" value="no">
+        <label for="flwupn" class="flwlbl">no</label> <br/> <br/>
+
+
+        <input type="hidden" id="humansOnly" name="humansOnly">
+
+
+       <!-- <input type="submit" value="Submit" id="sbutton"> -->
+        <button>Submit</button>
+    </fieldset>    
+
+</form>
+</body>
+</html>

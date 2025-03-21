@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proper Navigation Bar</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        nav {
+            background: green;
+            width: 100%;
+            padding: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+            top:  0;
+            left: 0;
+            position: fixed;
+            z-index: 999;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            font-weight: bold;
+            color: greenyellow;
+            background-color: #333;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #777;
+        }
+
+        main {
+            padding-top: 3.5rem;
+        }
+
+        body {
+            background: lightblue; color: #111;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        @media (max-width: 768px;) {
+
+        body {
+            background: darkslategray; color: white;
+        }
+
+        main {
+            padding: 30hv;
+        }
+
+        nav a {
+            border: 1px solid white;
+            text-align: center;
+        }
+    }
+
+        @media (max width: 480px) {
+            body {
+                background: linear-gradient(90deg, #00008 #483d8b);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#top">Top</a>
+        <a href="#bot">Bottom</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </nav>
+    <main id="top">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper vehicula nisi, at feugiat tortor pretium id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam lacinia vulputate scelerisque. Proin at sapien tempus, sollicitudin lectus at, varius risus. Vestibulum tincidunt viverra erat, in efficitur turpis tincidunt vitae. Vivamus cursus nec turpis quis posuere. Vestibulum nec erat maximus, tempor lectus non, tempus augue.
+Proin lacinia diam at eros pretium, a tempor dolor molestie. Morbi volutpat at lorem ac eleifend. Fusce sed lobortis sem. Mauris eu consequat nisi. Donec vulputate purus et tellus commodo, ac dignissim libero suscipit. Integer sed nulla quam. In laoreet nisl quis tellus accumsan, dapibus accumsan ante consequat. Nullam tempus rutrum libero ut consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Sed a augue ligula. Vestibulum condimentum sagittis maximus. Maecenas id leo ultrices, sollicitudin odio ac, tincidunt erat. Suspendisse semper rutrum mauris. Curabitur vitae tellus turpis. Morbi hendrerit tortor iaculis mollis ullamcorper. Duis id elementum mi. Mauris in hendrerit mauris. Etiam pretium aliquet justo, vitae vehicula justo facilisis quis. Quisque eu justo velit. Pellentesque facilisis dolor quis purus lacinia ullamcorper.
+Fusce sit amet porttitor sapien, vel molestie eros. Fusce scelerisque lorem quis libero rhoncus facilisis. Vestibulum et feugiat ipsum, et ullamcorper diam. Maecenas pretium libero non enim maximus egestas. Sed sit amet lacinia ante. Pellentesque vitae ligula interdum, pharetra sem nec, tristique risus. Pellentesque nec commodo nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque tempor nisl laoreet magna aliquet cursus. Suspendisse ornare vel turpis id iaculis. Cras dictum rhoncus sem eget tincidunt. Etiam vulputate nec nulla sit amet finibus. In facilisis pretium nibh at dictum. Curabitur id blandit neque, sagittis vehicula lectus.
+Ut sagittis varius sapien eget eleifend. Phasellus gravida dui massa, at mollis nisl suscipit vel. Proin blandit vestibulum metus, a fermentum orci ullamcorper quis. Ut sed diam sit amet nulla blandit faucibus. Nullam iaculis id risus congue maximus. Curabitur ac bibendum tellus. Maecenas nec justo blandit, maximus augue placerat, dapibus mauris. Vivamus ac semper enim. Quisque in scelerisque tellus. Praesent porta sit amet nulla eget imperdiet. Mauris quis odio vitae ligula euismod egestas.
+        </p>
+    </main>
+</body>
+</html>
