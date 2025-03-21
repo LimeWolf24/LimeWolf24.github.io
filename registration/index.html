@@ -4,34 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
-<style>
     <link rel="stylesheet" href="style.css"
 </head>
 <body>
     <h1>Sign Up</h1>
     <h2>It's free and always will be.</h2>
-    <center><label for="myfirstname"></label>
-        <input type="text" name="myfirstname" id="myfirstname" 
-        size="15" maxlength="100" placeholder="First Name"
-        required> </center>
-        <center><label for="mylastname"></label> <br/>
-        <input type="lastname" name="mylastname" 
-        size="15" maxlength="100" placeholder="Last Name"  required> <br/> <br/></center>
+    <div class="form-group">
+        <label for="firstname"></label>
+        <input type="text" id="firstname" name="firstname" size="15" maxlength="100" placeholder="First Name"
+        required>
+    </div>
+    <div class="form-groups">
+        <label for="lastname"></label>
+        <input type="text" id="lastname" name="lastname" size="15" maxlength="100" placeholder="Last Name"
+        required>
+    </div>
 
-    <center><label for="myemail"></label> <br/>
+    <label for="myemail"></label> <br/>
     <input type="email" name="myemail"
     size="15" maxlength="100" placeholder="Email" 
-    required> <br/> <br/></center>
+    required> <br/> <br/>
 
-        <center><label for="myemailagain"></label> <br/>
+        <label for="myemailagain"></label> <br/>
         <input type="email" name="myemail" 
         size="15" maxlength="100" placeholder="Re-Enter Email"
-        required> <br/> <br/></center>
+        required> <br/> <br/>
 
-        <center><label for="mypassword"></label> <br/>
+        <label for="mypassword"></label> <br/>
             <input type="password" size="15" maxlength="100" placeholder="New Password"
             required>
-          <br/> <br/></center>
+          <br/> <br/>
 
         <label for="birthday"><center>Birthday</center></label>
         <center><input type="date"></center>

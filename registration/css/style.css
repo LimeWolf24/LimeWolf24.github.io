@@ -9,3 +9,12 @@ h1 {
     font-family: Freight Sans Bold, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
 }
 
+.form-groups {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
