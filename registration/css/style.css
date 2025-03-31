@@ -1,0 +1,39 @@
+h2 {
+    font-size: large;
+}
+h1 {
+    font-size: huge;
+}
+
+* {
+    font-family: Freight Sans Bold, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+}
+
+<<<<<<< HEAD:registration/style.css
+label {
+    margin: auto;
+}
+
+button {
+    color: white;
+    background-color: #659d50;
+    font-size: 25px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;    /* round corners */
+}
+
+body {background: #edf0f5;}
+
+form { margin:auto;}
+=======
+.form-groups {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+>>>>>>> 73c3fe58a31e4f31ef0f623f936bdf787c5435e0:registration/css/style.css
