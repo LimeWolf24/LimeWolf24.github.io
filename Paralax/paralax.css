@@ -1,0 +1,35 @@
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+
+.section {
+    position: relative;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.static { background: red;}
+
+.bg1 :: after { background: url(https://picsum.photos/900/700)}
+.bg2 :: after { background: url(https://picsum.photos/800/600)}
+body, html { overflow: hidden;}
+* { margin: 0; padding: 0;}
+
+.paralax :: after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
