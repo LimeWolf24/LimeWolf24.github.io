@@ -1,8 +1,8 @@
 h2 {
-    font-size: medium;
+    font-size: 15px;
 }
 h1 {
-    font-size: larger;
+    font-size: medium;
 }
 
 * {
@@ -14,12 +14,17 @@ label {
 }
 
 button {
-    font: white;
+    font-weight: bolder;
+    color: white;
     background: #659d50;
-    font-size: 30px;
+    font-size: 16px;
     padding: 15px;
     border: 2px solid white;
     border-radius: 10px;    /* round corners */
 }
 
-body {background: #edf0f5;}
+fieldset {background: #edf0f5;}
+
+body {
+    background: #e2e2e2;
+}
