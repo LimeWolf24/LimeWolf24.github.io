@@ -23,8 +23,8 @@ button {
     border-radius: 10px;    /* round corners */
 }
 
-fieldset {background: #edf0f5;}
+fieldset {background: white;}
 
 body {
-    background: #e2e2e2;
+    background: #edf0f5;
 }
