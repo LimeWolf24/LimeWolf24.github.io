@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog 65h</title>
+</head>
+<body>
+    <label for="pnds">Pounds: </label>
+    <input type="number" id="pnds"> <br>
+
+    <label for="shls">Shillings: </label>
+    <input type="number" id="shls"> <br>
+
+    <label for="pnce">Pence: </label>
+    <input type="number" id="pnce"> <br>
+
+    <button onclick="
+    let pnds = Number(document.getElementById('pnds').value);
+    let shls = Number(document.getElementById('shls').value);
+    let pnce = Number(document.getElementById('pnce').value);
+    let decp = pnds + shls/20 + pnce/12/20;
+    decp = decp.tofixed(2);
+    document.writeln('Decimal Pounds = £' + decp);
+    ">Calculate</button>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog 54d</title>
+</head>
+<body>
+    <label for="bse">Base: </label>
+    <input type="number" id="bse"> <br>
+
+    <label for="hght">Height: </label>
+    <input type="number" id="hght"> <br>
+
+    <button onclick="
+    let bse = Number(document.getElementById('bse').value);
+    let hght = Number(document.getElementById('hght').value);
+    let area = Base * Height / 2;
+    let perim = 2 * length + 2 * width;
+    document.writeln('Area: ' + area + ' Perimiter: ' + perim);
+    ">Calculate</button>
+</body>
+</html>
