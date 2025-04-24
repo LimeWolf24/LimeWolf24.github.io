@@ -4,26 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortgage Balance Calculator</title>
-    <link rel="stylesheet" href="style.css"> 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
 </head>
-<body>
-    <label for="princ">Principal:</label>
-    <input type="number" id="princ"> <br> <br>
-
-    <label for="int">Interest Rate as % (e.g. 7.9): </label>
-    <input type="number" id="int"> <br> <br>
-
-    <label for="yrs">Number of Years: </label>
-    <input type="number" id="yrs"> <br> <br>
-
-    <button>Calculate</button>  
+<body> 
     
-    <button>Reset</button>
+        <div id="princ"><label for="princ">Principal:</label>
+    <input type="number" id="princ"> <br> <br> </div>
+
+    <div id="int"><label for="int">Interest Rate as % (e.g. 7.9): </label>
+    <input type="number" id="int"> <br> <br> </div>
+
+   <div id="yrs"> <label for="yrs">Number of Years: </label>
+    <input type="number" id="yrs"> <br> <br> </div>
+
+    <div id="calc"><button id="calc">Calculate</button>  </div>
+    
+   <div id="res"> <button id="res">Reset</button> </div>
 </body>
 </html>
