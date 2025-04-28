@@ -1,3 +1,22 @@
+* {
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+}
+
+button {
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px 15px;
+    background-color: #c40000;
+    color: rgb(255, 255, 255);
+}
 body {
-    background: purple;
+    background-color: #750000;
+}
+
+h1 {
+color: white;
+text-align: center;
+font-size: 50px;
 }
