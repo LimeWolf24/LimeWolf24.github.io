@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LP4-2</title>
+    <script src="LP4-2.js" defer></script>
+    <style>
+        body {
+            background: rgb(255, 255, 119);
+            text-align: center;
+        }
+
+        input {
+            background: rgb(189, 92, 189);
+            color: white;
+        }
+
+        button {
+            background: rgb(189, 92, 189);
+        }
+    </style>
 </head>
 <body>
     <label for="wght">Enter Package Weight In Kilograms:</label>
@@ -17,5 +33,15 @@
 
     <label for="hght">Enter Package Height In Centimeters:</label>
     <input type="number" id="wght">
+    <br>
+
+    <button onclick="function doMath()">Calculate</button>
+
+
 </body>
 </html>
+
+<!-- packages must be: > 27, and > 0.1 cubic meters
+-make a program to show alerts if the package is too heavy,
+too large, or both. 
+-->
