@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prog 93a</title>
     <style>
+        input {
+            border-color: white;
+        }
 
     </style>
 </head>
 <body>
-    <p>Enter KWH used in 993</p>
-    <p>C O M P S C I Electric</p>
+    <p id="KWH">Enter KWH used in 993</p>
+    <p id="compsci">C O M P S C I Electric</p>
     <hr style="border-top: dotted 1px;" />
-    <p>Kilowatts Used 993</p>
+    <label for="Kil">Kilowatts Used:</label>
+    <input type="number" id="Kil"> <br>
     <hr style="border-top: dotted 1px;" />
-    
+        <label for="rate">Base Rate 993 @ $ 0.0475: $</label>
+    <input type="number" id="rate"> <br>
+        <label for="sur">Surcharge: $</label>
+    <input type="number" id="sur"> <br>
+        <label for="wght">Citytax: $</label>
+    <input type="number" id="wght"> <br>
 </body>
 </html>
 
