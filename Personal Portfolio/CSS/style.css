@@ -1,0 +1,15 @@
+body {
+    background-color: #e8d1b8;
+}
+
+fieldset {
+    background-color: #d0ab32;
+    border: 2px;
+    width: 50%;
+    margin: auto;
+    }
+
+div {
+    border: 2px;
+    background: #b1adab;
+}
