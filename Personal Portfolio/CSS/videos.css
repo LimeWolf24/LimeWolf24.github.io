@@ -20,5 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 
 blockquote {
     text-align: center;
+<<<<<<< HEAD
     float: left;
+=======
+>>>>>>> ab25fbb803279f193830460a5bf7c92a66499a93
 }
