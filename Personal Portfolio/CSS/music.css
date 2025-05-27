@@ -13,11 +13,12 @@ div {
     border: 2px;
     background: #b1adab;
     text-align: center;
-<<<<<<< HEAD
 }
 
 h2, h3, h4, h5, h6 {
     text-align: centers;
-=======
->>>>>>> fdc97e03fcb282c55ac763210f68e0971705b1e6
+}
+
+img {
+    float:right
 }

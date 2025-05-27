@@ -12,12 +12,13 @@ fieldset {
 div {
     border: 2px;
     background: #b1adab;
+}
+
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
-<<<<<<< HEAD
 
 blockquote {
     text-align: center;
+    float: left;
 }
-=======
->>>>>>> fdc97e03fcb282c55ac763210f68e0971705b1e6

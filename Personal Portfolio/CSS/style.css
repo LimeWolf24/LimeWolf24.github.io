@@ -13,3 +13,22 @@ div {
     border: 2px;
     background: #b1adab;
 }
+
+table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        
+table { 
+    padding: 1px;
+    background: #D0AB32
+}
+        
+th { 
+    background: #D0AB32
+}
+        
+.rheader { 
+    background: #D0AB32
+}
