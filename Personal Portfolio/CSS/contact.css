@@ -1,0 +1,40 @@
+body {
+    background-color: #e8d1b8;
+}
+
+fieldset {
+    background-color: #d0ab32;
+    border: 2px;
+    width: 50%;
+    margin: auto;
+    }
+
+div {
+    border: 2px;
+    background: #b1adab;
+    text-align: center;
+}
+
+table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            float: center;
+        }
+        
+table { 
+    padding: 1px;
+    background: #D0AB32
+}
+        
+th { 
+    background: #D0AB32
+}
+        
+.rheader { 
+    background: #D0AB32
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
