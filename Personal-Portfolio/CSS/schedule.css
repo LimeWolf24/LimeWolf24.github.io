@@ -1,11 +1,24 @@
+<<<<<<< HEAD
         ol {
             background: #b1adab
         }
         
+=======
+>>>>>>> 2dc70e16870054994df3e6363000317bf6abd9bc
         body {
             background-color: #E8D1B8;
         }
 
+<<<<<<< HEAD
         fieldset {
             background-color: #D0AB32;
+=======
+        div {
+            background: #b1adab;
+        }
+
+        fieldset {
+            background-color: #D0AB32;
+            color: black;
+>>>>>>> 2dc70e16870054994df3e6363000317bf6abd9bc
         }
