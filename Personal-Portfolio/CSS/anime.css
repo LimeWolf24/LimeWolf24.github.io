@@ -12,6 +12,11 @@ fieldset {
 div {
     border: 2px;
     background: #b1adab;
+    
+    img:hover{
+    height: 400px;
+    width: 400px;
+}
 }
 
 h1, h2 {
