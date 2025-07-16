@@ -5,7 +5,10 @@
             background-color: #E8D1B8;
         }
         fieldset {
-            background-color: #D0AB32;
+            background-color: #d0ab32;
+    border: 2px;
+    width: 50%;
+    margin: auto;
         div {
             background: #b1adab;
         }
