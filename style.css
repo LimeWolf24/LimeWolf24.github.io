@@ -1,5 +1,13 @@
 body {
-  background: #dca64b; }
+  background-color: #8c0d0d;
+}
 
-<!--#dca64b-->
-<!--#f6c17b-->
+h1, p {
+  color:#f6c17b;
+}
+
+h2 {
+  text-align: left;
+    color:#f6c17b;
+
+}
